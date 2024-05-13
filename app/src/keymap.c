@@ -142,9 +142,9 @@ int zmk_keymap_layer_toggle(uint8_t layer) {
 };
 
 int zmk_keymap_layer_to(uint8_t layer) {
-    for (int i = ZMK_KEYMAP_LAYERS_LEN - 1; i >= 0; i--) {
-        zmk_keymap_layer_deactivate(i);
-    }
+    // for (int i = ZMK_KEYMAP_LAYERS_LEN - 1; i >= 0; i--) {
+    //     zmk_keymap_layer_deactivate(i);
+    // }
 
     zmk_keymap_layer_activate(layer);
 
